@@ -1,0 +1,2 @@
+# SchoolStrap
+Stuff for education
