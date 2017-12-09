@@ -68,6 +68,29 @@ public class Crypt {
         }
     }
 
+    public static byte[] asymmetricSign(byte[] in, PrivateKey key) {
+        try {
+            Signature s = Signature.getInstance("SHA256withRSA");
+            s.initSign(key);
+            s.update(in);
+            return s.sign();
+        } catch (NoSuchAlgorithmException | SignatureException | InvalidKeyException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    public static boolean asymmetricCheck(byte[] in, PublicKey key) {
+        try {
+            Signature s = Signature.getInstance("SHA256withRSA");
+            s.initVerify(key);
+            return s.verify(in);
+        } catch (NoSuchAlgorithmException | SignatureException | InvalidKeyException e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
     public static SecretKey symmetricKeygen(int size) {
         try {
             KeyGenerator gen = KeyGenerator.getInstance("AES");

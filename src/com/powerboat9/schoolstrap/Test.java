@@ -18,9 +18,15 @@ public class Test {
             }
 
             @Override
-            protected void fromBytesRaw(byte[] data) {
+            protected Packet fromBytesRaw(byte[] data) {
                 if (data.length > 0) {
                     throw new RuntimeException("LOL Nope");
+                }
+                try {
+                    return (Packet) this.clone();
+                } catch (CloneNotSupportedException e) {
+                    e.printStackTrace();
+                    return null;
                 }
             }
         };

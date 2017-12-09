@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7b23e9df-ffe6-4a81-8b26-b8d8a8189de4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/Crypt.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/Packet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/DataPort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SchoolStrap/com/powerboat9/schoolstrap/Test$1.class" afterPath="$PROJECT_DIR$/out/production/SchoolStrap/com/powerboat9/schoolstrap/Test$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SchoolStrap/com/powerboat9/schoolstrap/Test.class" afterPath="$PROJECT_DIR$/out/production/SchoolStrap/com/powerboat9/schoolstrap/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SchoolStrap/com/powerboat9/schoolstrap/common/Crypt.class" afterPath="$PROJECT_DIR$/out/production/SchoolStrap/com/powerboat9/schoolstrap/common/Crypt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SchoolStrap/com/powerboat9/schoolstrap/common/network/Packet.class" afterPath="$PROJECT_DIR$/out/production/SchoolStrap/com/powerboat9/schoolstrap/common/network/Packet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/Test.java" afterPath="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/Test.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/Crypt.java" afterPath="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/Crypt.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/Packet.java" afterPath="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/Packet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Packet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Packet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/Packet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="39" column="85" lean-forward="true" selection-start-line="39" selection-start-column="85" selection-end-line="39" selection-end-column="85" />
+            <state relative-caret-position="782">
+              <caret line="52" column="75" lean-forward="true" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,8 +40,20 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="-17">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataPort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/DataPort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,16 +64,10 @@
       <file leaf-file-name="Crypt.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/Crypt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+            <state relative-caret-position="269">
+              <caret line="86" column="32" lean-forward="true" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3095#3096#0" expanded="true" />
-                <element signature="e#3152#3153#0" expanded="true" />
-                <element signature="e#3420#3421#0" expanded="true" />
-                <element signature="e#3479#3480#0" expanded="true" />
-                <element signature="e#3524#3525#0" expanded="true" />
-                <element signature="e#3604#3605#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,11 +96,14 @@
         <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/PacketBase.java" />
         <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/Transfer.java" />
         <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/BasicCrypt.java" />
-        <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/Test.java" />
         <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/FakePrivateKey.java" />
         <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/VersionInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/Test.java" />
         <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/Crypt.java" />
         <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/Packet.java" />
+        <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/FindOthers.java" />
+        <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/Talk.java" />
+        <option value="$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/DataPort.java" />
       </list>
     </option>
   </component>
@@ -114,8 +128,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,11 +156,18 @@
               <item name="schoolstrap" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SchoolStrap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SchoolStrap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="schoolstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -292,7 +314,6 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -304,6 +325,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -314,6 +336,36 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/Packet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/Crypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/Packet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -398,7 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -406,7 +457,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="32" column="30" lean-forward="false" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -414,7 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2553">
           <caret line="29" column="30" lean-forward="false" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -422,7 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
           <caret line="132" column="30" lean-forward="false" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -430,7 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="25" column="23" lean-forward="true" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -438,46 +485,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="624">
           <caret line="446" column="0" lean-forward="false" selection-start-line="446" selection-start-column="0" selection-end-line="446" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/FakePrivateKey.java">
+    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/FakePrivateKey.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/VersionInfo.java" />
+    <entry file="jar:///usr/lib/jvm/default-runtime/jre/lib/ext/sunjce_provider.jar!/com/sun/crypto/provider/RSACipher.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/VersionInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="46" lean-forward="false" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        <state relative-caret-position="948">
+          <caret line="204" column="0" lean-forward="false" selection-start-line="204" selection-start-column="0" selection-end-line="204" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/Crypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3095#3096#0" expanded="true" />
-            <element signature="e#3152#3153#0" expanded="true" />
-            <element signature="e#3420#3421#0" expanded="true" />
-            <element signature="e#3479#3480#0" expanded="true" />
-            <element signature="e#3524#3525#0" expanded="true" />
-            <element signature="e#3604#3605#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="269">
+          <caret line="86" column="32" lean-forward="true" selection-start-line="86" selection-start-column="32" selection-end-line="86" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -486,8 +510,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/Packet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="39" column="85" lean-forward="true" selection-start-line="39" selection-start-column="85" selection-end-line="39" selection-end-column="85" />
+        <state relative-caret-position="782">
+          <caret line="52" column="75" lean-forward="true" selection-start-line="52" selection-start-column="75" selection-end-line="52" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default-runtime/jre/lib/rt.jar!/java/lang/Thread.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="213" column="16" lean-forward="false" selection-start-line="213" selection-start-column="16" selection-end-line="213" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/FindOthers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/Talk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/default-runtime/jre/lib/rt.jar!/java/nio/channels/SocketChannel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="64" column="28" lean-forward="false" selection-start-line="64" selection-start-column="28" selection-end-line="64" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/powerboat9/schoolstrap/common/network/DataPort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="21" column="42" lean-forward="false" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
